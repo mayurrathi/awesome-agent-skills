@@ -16,9 +16,7 @@
 
 **Awesome Agent Skills** is a massive, meticulously engineered collection of AI agent workflows, system prompts, and capability files (`SKILL.md`). 
 
-Inspired by the structure of [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills), this repository acts as the "operating system" for any autonomous AI agent (like those in Cursor, GitHub Copilot Workspaces, Windsurf, or custom LangChain/CrewAI setups).
-
-By importing these skills into your `.agent/skills` folder, you immediately upgrade your AI from a generic chatbot into a **Senior Developer, Expert Marketer, and Operations Executive**.
+Every single skill in this library is actively used by the creator to design apps, automate program management workflows, and scale developer ecosystems. By importing these deeply-researched instructions into your own AI setup, you upgrade your AI from a generic chatbot into a **Senior Developer, Expert Marketer, and Operations Executive**.
 
 ---
 
@@ -96,7 +94,7 @@ Curated and maintained by **Mayur Rathi**, a Data-Driven Program Manager special
 
 * [Connect on LinkedIn](https://linkedin.com/in/mayurrathi26)
 * [Follow on GitHub](https://github.com/mayurrathi)
-* [Portfolio Website](https://mayurrathi.com)
+* [Portfolio Website](https://mayur.bhopal.dev)
 
 ---
 
