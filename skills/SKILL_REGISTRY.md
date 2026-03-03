@@ -1,155 +1,131 @@
 # 🧠 Antigravity Global Skill Registry
 
-> Centralized knowledge base for all projects in the **current** workspace.
+> This repository architecture uses a future-proof, infinitely scalable decimal taxonomy.
 > Every skill is auto-discovered by Antigravity across all conversations referencing this workspace.
 
-| ID | Skill | Domain | Version |
-|----|-------|--------|---------|
-| 01 | [01 App Arbitrage Blueprint](./01_app_arbitrage/SKILL.md) | Various | 1.0.0 |
-| 02 | [02 Secure Mass-Market App Deployment](./02_secure_app_deployment/SKILL.md) | Various | 1.0.0 |
-| 03 | [03 Growth Engineering & Technical Marketing](./03_growth_engineering/SKILL.md) | Various | 1.0.0 |
-| 04 | [04 Web Development & Design Systems](./04_web_dev_design_systems/SKILL.md) | Various | 1.0.0 |
-| 05 | [05 PWA Architecture & Offline-First](./05_pwa_offline_first/SKILL.md) | Various | 1.0.0 |
-| 06 | [06 CI/CD, Git & Deployment Pipelines](./06_cicd_git_deployment/SKILL.md) | Various | 1.0.0 |
-| 07 | [07 Firebase & BaaS Infrastructure](./07_firebase_baas/SKILL.md) | Various | 1.0.0 |
-| 08 | [08 India-First Localization & Regional UX](./08_india_first_localization/SKILL.md) | Various | 1.0.0 |
-| 09 | [09 Project Scaffolding & Monorepo Management](./09_project_scaffolding/SKILL.md) | Various | 1.0.0 |
-| 10 | [10 AI-Assisted Development Workflows](./10_ai_dev_workflows/SKILL.md) | Various | 1.0.0 |
-| 11 | [11 Conversion Copywriting](./11_conversion_copywriting/SKILL.md) | Various | 1.0.0 |
-| 12 | [12 CRO Optimization](./12_cro_optimization/SKILL.md) | Various | 1.0.0 |
-| 13 | [13 SEO & Site Architecture](./13_seo_site_architecture/SKILL.md) | Various | 1.0.0 |
-| 14 | [14 Growth & Strategy](./14_growth_and_strategy/SKILL.md) | Various | 1.0.0 |
-| 15 | [15 Content & Product Launches](./15_content_product_launches/SKILL.md) | Various | 1.0.0 |
-| 16 | [16 Retention & Referral Programs](./16_retention_referral/SKILL.md) | Various | 1.0.0 |
-| 17 | [17 Sales & Cold Outreach](./17_sales_cold_outreach/SKILL.md) | Various | 1.0.0 |
-| 18 | [18 Performance Marketing & Ops](./18_performance_marketing_ops/SKILL.md) | Various | 1.0.0 |
-| 19 | [19 AI & Agent Orchestration](./19_ai_agent_bundle/SKILL.md) | Various | 1.0.0 |
-| 20 | [20 Web & Frontend Mastery](./20_web_frontend_bundle/SKILL.md) | Various | 1.0.0 |
-| 21 | [21 Backend & API Security](./21_backend_api_bundle/SKILL.md) | Various | 1.0.0 |
-| 22 | [22 DevOps & Cloud Architecture](./22_devops_cloud_bundle/SKILL.md) | Various | 1.0.0 |
-| 23 | [23 Automation & Low-Code](./23_automation_lowcode_bundle/SKILL.md) | Various | 1.0.0 |
-| 24 | [24 Data Science & Analytics](./24_data_science_bundle/SKILL.md) | Various | 1.0.0 |
-| 25 | [25 Security & Pentesting](./25_security_pentesting_bundle/SKILL.md) | Various | 1.0.0 |
-| 26 | [26 Marketing & Growth Mastery](./26_marketing_growth_bundle/SKILL.md) | Various | 1.0.0 |
-| 27 | [27 Mobile & Cross-Platform](./27_mobile_native_bundle/SKILL.md) | Various | 1.0.0 |
-| 28 | [28 Business & Productivity](./28_business_productivity_bundle/SKILL.md) | Various | 1.0.0 |
-| 29 | [29 LinkedIn Mastery](./29_linkedin_mastery/SKILL.md) | Various | 1.0.0 |
-| 30 | [30 Search & AI Optimization (Omni-SEO)](./30_omni_seo_dominance/SKILL.md) | Various | 1.0.0 |
-| 31 | [31 Antigravity Superpowers](./31_antigravity_superpowers/SKILL.md) | Various | 1.0.0 |
-| 32 | [32 Vercel React Best Practices](./32_vercel_react_best_practices/SKILL.md) | Various | 1.0.0 |
-| 33 | [33 Trail of Bits Security Auditor](./33_trail_of_bits_security/SKILL.md) | Various | 1.0.0 |
-| 34 | [34 Document Skills (PDF/DOCX/PPTX)](./34_document_skills/SKILL.md) | Various | 1.0.0 |
-| 35 | [35 Webapp Testing (Playwright)](./35_webapp_testing_playwright/SKILL.md) | Various | 1.0.0 |
-| 36 | [36 MCP Server Builder](./36_mcp_server_builder/SKILL.md) | Various | 1.0.0 |
-| 37 | [37 Supabase Skills](./37_supabase_skills/SKILL.md) | Various | 1.0.0 |
-| 38 | [38 Remotion Video Editor](./38_remotion_video_editor/SKILL.md) | Various | 1.0.0 |
-| 39 | [39 Web Design Guidelines](./39_web_design_guidelines/SKILL.md) | Various | 1.0.0 |
-| 40 | [40 Connect (Cross-Service Automation)](./40_connect_automation/SKILL.md) | Various | 1.0.0 |
-| 41 | [41 Electron Upgrade Advisor](./41_electron_upgrade_advisor/SKILL.md) | Various | 1.0.0 |
-| 42 | [42 Dify Frontend Tester](./42_dify_frontend_tester/SKILL.md) | Various | 1.0.0 |
-| 43 | [43 Git Commit Formatter](./43_git_commit_formatter/SKILL.md) | Various | 1.0.0 |
-| 44 | [44 Prompt Lookup](./44_prompt_lookup/SKILL.md) | Various | 1.0.0 |
-| 45 | [45 Skill Installer](./45_skill_installer/SKILL.md) | Various | 1.0.0 |
-| 46 | [46 LinkedIn Content Creator](./46_linkedin_content_creator/SKILL.md) | Various | 1.0.0 |
-| 47 | [47 LinkedIn Automation Bot](./47_linkedin_automation_bot/SKILL.md) | Various | 1.0.0 |
-| 48 | [48 LinkedIn Profile Optimizer](./48_linkedin_profile_optimizer/SKILL.md) | Various | 1.0.0 |
-| 49 | [49 End-To-End App Development](./49_end_to_end_app_development/SKILL.md) | Various | 1.0.0 |
+| ID | Category | Sub-Category | Skill Name | Path |
+|---|---|---|---|---|
+| 1.1.1 | Marketing And Growth | Linkedin Ecosystem | Linkedin Mastery | [Link](./1_marketing_and_growth/1.1_linkedin_ecosystem/1.1.1_linkedin_mastery/SKILL.md) |
+| 1.1.2 | Marketing And Growth | Linkedin Ecosystem | Profile Optimizer | [Link](./1_marketing_and_growth/1.1_linkedin_ecosystem/1.1.2_profile_optimizer/SKILL.md) |
+| 1.1.3 | Marketing And Growth | Linkedin Ecosystem | Content Creator | [Link](./1_marketing_and_growth/1.1_linkedin_ecosystem/1.1.3_content_creator/SKILL.md) |
+| 1.1.4 | Marketing And Growth | Linkedin Ecosystem | Automation Bot | [Link](./1_marketing_and_growth/1.1_linkedin_ecosystem/1.1.4_automation_bot/SKILL.md) |
+| 1.2.1 | Marketing And Growth | Search And Seo | Seo Site Architecture | [Link](./1_marketing_and_growth/1.2_search_and_seo/1.2.1_seo_site_architecture/SKILL.md) |
+| 1.2.2 | Marketing And Growth | Search And Seo | Omni Seo Dominance | [Link](./1_marketing_and_growth/1.2_search_and_seo/1.2.2_omni_seo_dominance/SKILL.md) |
+| 1.3.1 | Marketing And Growth | Copywriting And Cro | Conversion Copywriting | [Link](./1_marketing_and_growth/1.3_copywriting_and_cro/1.3.1_conversion_copywriting/SKILL.md) |
+| 1.3.2 | Marketing And Growth | Copywriting And Cro | Cro Optimization | [Link](./1_marketing_and_growth/1.3_copywriting_and_cro/1.3.2_cro_optimization/SKILL.md) |
+| 1.4.1 | Marketing And Growth | Campaigns And Sales | Content Product Launches | [Link](./1_marketing_and_growth/1.4_campaigns_and_sales/1.4.1_content_product_launches/SKILL.md) |
+| 1.4.2 | Marketing And Growth | Campaigns And Sales | Sales Cold Outreach | [Link](./1_marketing_and_growth/1.4_campaigns_and_sales/1.4.2_sales_cold_outreach/SKILL.md) |
+| 1.4.3 | Marketing And Growth | Campaigns And Sales | Performance Marketing Ops | [Link](./1_marketing_and_growth/1.4_campaigns_and_sales/1.4.3_performance_marketing_ops/SKILL.md) |
+| 1.5.1 | Marketing And Growth | Strategy And Retention | Growth And Strategy | [Link](./1_marketing_and_growth/1.5_strategy_and_retention/1.5.1_growth_and_strategy/SKILL.md) |
+| 1.5.2 | Marketing And Growth | Strategy And Retention | Retention Referral | [Link](./1_marketing_and_growth/1.5_strategy_and_retention/1.5.2_retention_referral/SKILL.md) |
+| 1.5.3 | Marketing And Growth | Strategy And Retention | Growth Engineering | [Link](./1_marketing_and_growth/1.5_strategy_and_retention/1.5.3_growth_engineering/SKILL.md) |
+| 2.1.1 | Engineering And Devops | Architecture And Design | End To End App Development | [Link](./2_engineering_and_devops/2.1_architecture_and_design/2.1.1_end_to_end_app_development/SKILL.md) |
+| 2.1.2 | Engineering And Devops | Architecture And Design | Project Scaffolding | [Link](./2_engineering_and_devops/2.1_architecture_and_design/2.1.2_project_scaffolding/SKILL.md) |
+| 2.1.3 | Engineering And Devops | Architecture And Design | Web Dev Design Systems | [Link](./2_engineering_and_devops/2.1_architecture_and_design/2.1.3_web_dev_design_systems/SKILL.md) |
+| 2.1.4 | Engineering And Devops | Architecture And Design | Web Design Guidelines | [Link](./2_engineering_and_devops/2.1_architecture_and_design/2.1.4_web_design_guidelines/SKILL.md) |
+| 2.2.1 | Engineering And Devops | Frontend Applications | Vercel React Best Practices | [Link](./2_engineering_and_devops/2.2_frontend_applications/2.2.1_vercel_react_best_practices/SKILL.md) |
+| 2.2.2 | Engineering And Devops | Frontend Applications | Pwa Offline First | [Link](./2_engineering_and_devops/2.2_frontend_applications/2.2.2_pwa_offline_first/SKILL.md) |
+| 2.2.3 | Engineering And Devops | Frontend Applications | App Arbitrage | [Link](./2_engineering_and_devops/2.2_frontend_applications/2.2.3_app_arbitrage/SKILL.md) |
+| 2.2.4 | Engineering And Devops | Frontend Applications | India First Localization | [Link](./2_engineering_and_devops/2.2_frontend_applications/2.2.4_india_first_localization/SKILL.md) |
+| 2.3.1 | Engineering And Devops | Backend And Cloud | Firebase Baas | [Link](./2_engineering_and_devops/2.3_backend_and_cloud/2.3.1_firebase_baas/SKILL.md) |
+| 2.3.2 | Engineering And Devops | Backend And Cloud | Supabase Skills | [Link](./2_engineering_and_devops/2.3_backend_and_cloud/2.3.2_supabase_skills/SKILL.md) |
+| 2.4.1 | Engineering And Devops | Deployment And Devops | Cicd Git Deployment | [Link](./2_engineering_and_devops/2.4_deployment_and_devops/2.4.1_cicd_git_deployment/SKILL.md) |
+| 2.4.2 | Engineering And Devops | Deployment And Devops | Secure App Deployment | [Link](./2_engineering_and_devops/2.4_deployment_and_devops/2.4.2_secure_app_deployment/SKILL.md) |
+| 2.4.3 | Engineering And Devops | Deployment And Devops | Git Commit Formatter | [Link](./2_engineering_and_devops/2.4_deployment_and_devops/2.4.3_git_commit_formatter/SKILL.md) |
+| 2.5.1 | Engineering And Devops | Security And Testing | Trail Of Bits Security | [Link](./2_engineering_and_devops/2.5_security_and_testing/2.5.1_trail_of_bits_security/SKILL.md) |
+| 2.5.2 | Engineering And Devops | Security And Testing | Webapp Testing Playwright | [Link](./2_engineering_and_devops/2.5_security_and_testing/2.5.2_webapp_testing_playwright/SKILL.md) |
+| 2.5.3 | Engineering And Devops | Security And Testing | Dify Frontend Tester | [Link](./2_engineering_and_devops/2.5_security_and_testing/2.5.3_dify_frontend_tester/SKILL.md) |
+| 2.6.1 | Engineering And Devops | Desktop And Native | Electron Upgrade Advisor | [Link](./2_engineering_and_devops/2.6_desktop_and_native/2.6.1_electron_upgrade_advisor/SKILL.md) |
+| 3.1.1 | Ai And Agents | Agent Orchestration | Ai Dev Workflows | [Link](./3_ai_and_agents/3.1_agent_orchestration/3.1.1_ai_dev_workflows/SKILL.md) |
+| 3.1.2 | Ai And Agents | Agent Orchestration | Antigravity Superpowers | [Link](./3_ai_and_agents/3.1_agent_orchestration/3.1.2_antigravity_superpowers/SKILL.md) |
+| 3.1.99 | Ai And Agents | Agent Orchestration | Legacy Antigravity Skills | [Link](./3_ai_and_agents/3.1_agent_orchestration/3.1.99_legacy_antigravity_skills/SKILL.md) |
+| 3.2.1 | Ai And Agents | Agent Tooling | Mcp Server Builder | [Link](./3_ai_and_agents/3.2_agent_tooling/3.2.1_mcp_server_builder/SKILL.md) |
+| 3.2.2 | Ai And Agents | Agent Tooling | Connect Automation | [Link](./3_ai_and_agents/3.2_agent_tooling/3.2.2_connect_automation/SKILL.md) |
+| 3.3.1 | Ai And Agents | Skill Management | Prompt Lookup | [Link](./3_ai_and_agents/3.3_skill_management/3.3.1_prompt_lookup/SKILL.md) |
+| 3.3.2 | Ai And Agents | Skill Management | Skill Installer | [Link](./3_ai_and_agents/3.3_skill_management/3.3.2_skill_installer/SKILL.md) |
+| 4.1.1 | Business And Operations | Document Generation | Document Skills | [Link](./4_business_and_operations/4.1_document_generation/4.1.1_document_skills/SKILL.md) |
+| 4.2.1 | Business And Operations | Media Creation | Remotion Video Editor | [Link](./4_business_and_operations/4.2_media_creation/4.2.1_remotion_video_editor/SKILL.md) |
+| 9.1.1 | Mega Bundles | Ai Agent Bundle | Ai Agent Bundle | [Link](./9_mega_bundles/9.1_ai_agent_bundle/9.1.1_ai_agent_bundle/SKILL.md) |
+| 9.2.1 | Mega Bundles | Web Frontend Bundle | Web Frontend Bundle | [Link](./9_mega_bundles/9.2_web_frontend_bundle/9.2.1_web_frontend_bundle/SKILL.md) |
+| 9.3.1 | Mega Bundles | Backend Api Bundle | Backend Api Bundle | [Link](./9_mega_bundles/9.3_backend_api_bundle/9.3.1_backend_api_bundle/SKILL.md) |
+| 9.4.1 | Mega Bundles | Devops Cloud Bundle | Devops Cloud Bundle | [Link](./9_mega_bundles/9.4_devops_cloud_bundle/9.4.1_devops_cloud_bundle/SKILL.md) |
+| 9.5.1 | Mega Bundles | Automation Lowcode Bundle | Automation Lowcode Bundle | [Link](./9_mega_bundles/9.5_automation_lowcode_bundle/9.5.1_automation_lowcode_bundle/SKILL.md) |
+| 9.6.1 | Mega Bundles | Data Science Bundle | Data Science Bundle | [Link](./9_mega_bundles/9.6_data_science_bundle/9.6.1_data_science_bundle/SKILL.md) |
+| 9.7.1 | Mega Bundles | Security Pentesting Bundle | Security Pentesting Bundle | [Link](./9_mega_bundles/9.7_security_pentesting_bundle/9.7.1_security_pentesting_bundle/SKILL.md) |
+| 9.8.1 | Mega Bundles | Marketing Growth Bundle | Marketing Growth Bundle | [Link](./9_mega_bundles/9.8_marketing_growth_bundle/9.8.1_marketing_growth_bundle/SKILL.md) |
+| 9.9.1 | Mega Bundles | Mobile Native Bundle | Mobile Native Bundle | [Link](./9_mega_bundles/9.9_mobile_native_bundle/9.9.1_mobile_native_bundle/SKILL.md) |
+| 9.10.1 | Mega Bundles | Business Productivity Bundle | Business Productivity Bundle | [Link](./9_mega_bundles/9.10_business_productivity_bundle/9.10.1_business_productivity_bundle/SKILL.md) |
 
-## Skill Dependencies
+## Skill Logical Architecture
 
 ```mermaid
 graph TD
-    A[01 App Arbitrage] --> B[02 Secure Deployment]
-    A --> C[03 Growth Engineering]
-    A --> D[04 Web Dev & Design]
-    D --> E[05 PWA Architecture]
-    B --> E
-    C --> E
-    E --> F[06 CI/CD & Deployment]
-    C --> G[07 Firebase & BaaS]
-    E --> G
-    D --> H[08 India-First Localization]
-    A --> I[09 Project Scaffolding]
-    I --> J[10 AI Dev Workflows]
-    J --> D
-    
-    %% Marketing & SEO Ecosystem
-    C --> M1[11 Conversion Copywriting]
-    M1 --> M2[12 CRO Optimization]
-    M2 --> M3[13 SEO Architecture]
-    M3 --> S1[30 Omni-SEO Dominance]
-    M1 --> M4[14 Growth & Strategy]
-    M4 --> M5[15 Content Launches]
-    M5 --> M6[16 Retention & Referral]
-    M6 --> M7[17 Sales & Outreach]
-    M7 --> M8[18 Performance & Ops]
-    
-    %% LinkedIn Ecosystem
-    M5 --> L1[29 LinkedIn Mastery]
-    L1 --> L2[48 Profile Optimizer]
-    L2 --> L3[46 Content Creator]
-    L3 --> L4[47 Automation Bot]
-    
-    %% Core Engineering Bundles
-    D --> B1[20 Web Frontend Bundle]
-    B1 --> V1[32 Vercel React Practices]
-    B1 --> W1[39 Web Design Guidelines]
-    V1 --> B2[21 Backend API Bundle]
-    B2 --> B3[22 DevOps Cloud Bundle]
-    B3 --> B4[24 Data Science Bundle]
-    B3 --> S2[37 Supabase Skills]
-    D --> M9[27 Mobile Native Bundle]
-    
-    %% Security & Testing
-    B2 --> O1[25 Security Pentesting]
-    O1 --> O2[33 Trail of Bits Auditor]
-    B1 --> T1[35 Playwright Testing]
-    B1 --> T2[42 Dify Frontend Tester]
-    
-    %% Agent & Automation Tools
-    J --> A1[19 AI Agent Bundle]
-    A1 --> A2[23 Automation Low-Code]
-    A2 --> A3[40 Connect Automation]
-    A1 --> A4[36 MCP Server Builder]
-    A1 --> A5[44 Prompt Lookup]
-    A1 --> A6[45 Skill Installer]
-    A1 --> A7[31 Antigravity Superpowers]
-    A1 --> A8[49 End-To-End App Dev]
-    
-    %% Utilities
-    J --> U1[28 Business Productivity]
-    U1 --> U2[34 Document Skills]
-    U1 --> U3[38 Remotion Video]
-    B1 --> U4[41 Electron Upgrade]
-    F --> U5[43 Git Commit Formatter]
+    %% Top Level Domains
+    TL1[Marketing & Growth]
+    TL2[Engineering & DevOps]
+    TL3[AI & Agent Orchestration]
+    TL4[Business & Operations]
+
+    TL1 --> SUB_1_1[Linkedin Ecosystem]
+    SUB_1_1 --> S_1_1_1[Linkedin Mastery]
+    SUB_1_1 --> S_1_1_2[Profile Optimizer]
+    SUB_1_1 --> S_1_1_3[Content Creator]
+    SUB_1_1 --> S_1_1_4[Automation Bot]
+    TL1 --> SUB_1_2[Search And Seo]
+    SUB_1_2 --> S_1_2_1[Seo Site Architecture]
+    SUB_1_2 --> S_1_2_2[Omni Seo Dominance]
+    TL1 --> SUB_1_3[Copywriting And Cro]
+    SUB_1_3 --> S_1_3_1[Conversion Copywriting]
+    SUB_1_3 --> S_1_3_2[Cro Optimization]
+    TL1 --> SUB_1_4[Campaigns And Sales]
+    SUB_1_4 --> S_1_4_1[Content Product Launches]
+    SUB_1_4 --> S_1_4_2[Sales Cold Outreach]
+    SUB_1_4 --> S_1_4_3[Performance Marketing Ops]
+    TL1 --> SUB_1_5[Strategy And Retention]
+    SUB_1_5 --> S_1_5_1[Growth And Strategy]
+    SUB_1_5 --> S_1_5_2[Retention Referral]
+    SUB_1_5 --> S_1_5_3[Growth Engineering]
+    TL2 --> SUB_2_1[Architecture And Design]
+    SUB_2_1 --> S_2_1_1[End To End App Development]
+    SUB_2_1 --> S_2_1_2[Project Scaffolding]
+    SUB_2_1 --> S_2_1_3[Web Dev Design Systems]
+    SUB_2_1 --> S_2_1_4[Web Design Guidelines]
+    TL2 --> SUB_2_2[Frontend Applications]
+    SUB_2_2 --> S_2_2_1[Vercel React Best Practices]
+    SUB_2_2 --> S_2_2_2[Pwa Offline First]
+    SUB_2_2 --> S_2_2_3[App Arbitrage]
+    SUB_2_2 --> S_2_2_4[India First Localization]
+    TL2 --> SUB_2_3[Backend And Cloud]
+    SUB_2_3 --> S_2_3_1[Firebase Baas]
+    SUB_2_3 --> S_2_3_2[Supabase Skills]
+    TL2 --> SUB_2_4[Deployment And Devops]
+    SUB_2_4 --> S_2_4_1[Cicd Git Deployment]
+    SUB_2_4 --> S_2_4_2[Secure App Deployment]
+    SUB_2_4 --> S_2_4_3[Git Commit Formatter]
+    TL2 --> SUB_2_5[Security And Testing]
+    SUB_2_5 --> S_2_5_1[Trail Of Bits Security]
+    SUB_2_5 --> S_2_5_2[Webapp Testing Playwright]
+    SUB_2_5 --> S_2_5_3[Dify Frontend Tester]
+    TL2 --> SUB_2_6[Desktop And Native]
+    SUB_2_6 --> S_2_6_1[Electron Upgrade Advisor]
+    TL3 --> SUB_3_1[Agent Orchestration]
+    SUB_3_1 --> S_3_1_1[Ai Dev Workflows]
+    SUB_3_1 --> S_3_1_2[Antigravity Superpowers]
+    SUB_3_1 --> S_3_1_99[Legacy Antigravity Skills]
+    TL3 --> SUB_3_2[Agent Tooling]
+    SUB_3_2 --> S_3_2_1[Mcp Server Builder]
+    SUB_3_2 --> S_3_2_2[Connect Automation]
+    TL3 --> SUB_3_3[Skill Management]
+    SUB_3_3 --> S_3_3_1[Prompt Lookup]
+    SUB_3_3 --> S_3_3_2[Skill Installer]
+    TL4 --> SUB_4_1[Document Generation]
+    SUB_4_1 --> S_4_1_1[Document Skills]
+    TL4 --> SUB_4_2[Media Creation]
+    SUB_4_2 --> S_4_2_1[Remotion Video Editor]
 ```
 
-## How to Use
+## How the System Works
 
-1. **Antigravity auto-discovers** all skills in `.agent/skills/` — no manual loading needed.
-2. **Reference by ID** in conversations: *"Apply Skill 04 design token standards to this component."*
-3. **Cross-reference** between skills: Skill files reference each other by ID number for related guidance.
-4. **Add new skills** by creating `NN_skill_name/SKILL.md` with proper YAML frontmatter (see Skill 10 §1 for authoring standards).
-
-## Adding a New Skill
-
-```bash
-# 1. Create the skill directory
-mkdir -p .agent/skills/11_new_skill_name
-
-# 2. Create SKILL.md with required frontmatter
-cat > .agent/skills/11_new_skill_name/SKILL.md << 'EOF'
----
-name: 11 New Skill Name
-description: Brief description of this skill's domain.
-version: 1.0.0
----
-
-# 11 New Skill Name
-
-...
-EOF
-
-# 3. Update this registry table
-# 4. Commit: git commit -am "feat: add skill 11 — New Skill Name"
-```
+1. **Antigravity auto-discovers** all skills dynamically based on folder structure.
+2. **Reference by decimal ID** in conversations: *"Apply Strategy 1.1.1 to my LinkedIn post."*
+3. **To add a new skill**, find the appropriate Sub-Category, increment the highest decimal, and create the folder. Example: Adding `2.2.5_new_react_skill` under `2.2_frontend_applications`.
