@@ -72,28 +72,54 @@ graph TD
     I --> J[10 AI Dev Workflows]
     J --> D
     
-    %% Marketing Skills
+    %% Marketing & SEO Ecosystem
     C --> M1[11 Conversion Copywriting]
     M1 --> M2[12 CRO Optimization]
-    M2 --> M3[13 SEO & Architecture]
+    M2 --> M3[13 SEO Architecture]
+    M3 --> S1[30 Omni-SEO Dominance]
     M1 --> M4[14 Growth & Strategy]
-    M4 --> M5[15 Content & Launches]
+    M4 --> M5[15 Content Launches]
     M5 --> M6[16 Retention & Referral]
     M6 --> M7[17 Sales & Outreach]
     M7 --> M8[18 Performance & Ops]
     
-    %% Awesome Skill Bundles
-    M1 --> B1[19 AI & Agent Bundle]
-    B1 --> B2[20 Web Frontend Bundle]
-    B2 --> B3[21 Backend API Bundle]
-    B3 --> B4[22 DevOps Cloud Bundle]
-    B3 --> B5[23 Automation Bundle]
-    B3 --> B6[24 Data Science Bundle]
-    B3 --> B7[25 Security Bundle]
-    M4 --> B8[26 Marketing Bundle]
-    B2 --> B9[27 Mobile Bundle]
-    M1 --> B10[28 Business Bundle]
-    B10 --> B11[29 LinkedIn Mastery]
+    %% LinkedIn Ecosystem
+    M5 --> L1[29 LinkedIn Mastery]
+    L1 --> L2[48 Profile Optimizer]
+    L2 --> L3[46 Content Creator]
+    L3 --> L4[47 Automation Bot]
+    
+    %% Core Engineering Bundles
+    D --> B1[20 Web Frontend Bundle]
+    B1 --> V1[32 Vercel React Practices]
+    B1 --> W1[39 Web Design Guidelines]
+    V1 --> B2[21 Backend API Bundle]
+    B2 --> B3[22 DevOps Cloud Bundle]
+    B3 --> B4[24 Data Science Bundle]
+    B3 --> S2[37 Supabase Skills]
+    D --> M9[27 Mobile Native Bundle]
+    
+    %% Security & Testing
+    B2 --> O1[25 Security Pentesting]
+    O1 --> O2[33 Trail of Bits Auditor]
+    B1 --> T1[35 Playwright Testing]
+    B1 --> T2[42 Dify Frontend Tester]
+    
+    %% Agent & Automation Tools
+    J --> A1[19 AI Agent Bundle]
+    A1 --> A2[23 Automation Low-Code]
+    A2 --> A3[40 Connect Automation]
+    A1 --> A4[36 MCP Server Builder]
+    A1 --> A5[44 Prompt Lookup]
+    A1 --> A6[45 Skill Installer]
+    A1 --> A7[31 Antigravity Superpowers]
+    
+    %% Utilities
+    J --> U1[28 Business Productivity]
+    U1 --> U2[34 Document Skills]
+    U1 --> U3[38 Remotion Video]
+    B1 --> U4[41 Electron Upgrade]
+    F --> U5[43 Git Commit Formatter]
 ```
 
 ## How to Use
