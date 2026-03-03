@@ -53,6 +53,7 @@
 | 46 | [46 LinkedIn Content Creator](./46_linkedin_content_creator/SKILL.md) | Various | 1.0.0 |
 | 47 | [47 LinkedIn Automation Bot](./47_linkedin_automation_bot/SKILL.md) | Various | 1.0.0 |
 | 48 | [48 LinkedIn Profile Optimizer](./48_linkedin_profile_optimizer/SKILL.md) | Various | 1.0.0 |
+| 49 | [49 End-To-End App Development](./49_end_to_end_app_development/SKILL.md) | Various | 1.0.0 |
 
 ## Skill Dependencies
 
@@ -113,6 +114,7 @@ graph TD
     A1 --> A5[44 Prompt Lookup]
     A1 --> A6[45 Skill Installer]
     A1 --> A7[31 Antigravity Superpowers]
+    A1 --> A8[49 End-To-End App Dev]
     
     %% Utilities
     J --> U1[28 Business Productivity]
