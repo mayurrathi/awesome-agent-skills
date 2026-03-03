@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=250&section=header&text=Awesome%20Agent%20Skills&fontSize=70&fontAlignY=35&desc=The%20Ultimate%20Open-Source%20Library%20of%20Prompts%20%26%20Agentic%20Workflows&descAlignY=60&descAlign=62&fontColor=ffffff" />
+  <h1>Awesome Agent Skills</h1>
+  <p><b>The Ultimate Open-Source Library of Prompts & Agentic Workflows</b></p>
 </div>
-
 <p align="center">
   <br />
   <a href="https://github.com/mayurrathi/awesome-agent-skills/stargazers"><img src="https://img.shields.io/github/stars/mayurrathi/awesome-agent-skills?style=for-the-badge&color=ffd700&logo=github" alt="Stars" /></a>
