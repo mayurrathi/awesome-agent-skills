@@ -10,7 +10,7 @@ This skill defines the methodology for capitalizing on legacy mobile ecosystems 
 
 ## 1. Niche Identification
 * **Target:** Legacy applications with high download volume but poor user interfaces and predatory monetization.
-* **Categories:** Productivity & Utilities (e.g., QR Scanners, Notification Managers) and Regional Casual Gaming (e.g., Tambola/Housie).
+* **Categories:** Productivity & Utilities (e.g., QR Scanners, Notification Managers) and Regional Casual Gaming (e.g., Board Games/Bingo).
 
 ## 2. AI Integration & App Creation
 * Utilize AI tools for front-end structure (v0.dev, Bolt.new, Superapp, Screen2Code).

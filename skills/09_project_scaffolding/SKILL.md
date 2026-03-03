@@ -14,17 +14,17 @@ This skill defines the standards for initializing new projects within the Busine
     ```
     Business Idea Prototypes/
     ├── .agent/skills/          # Global skill directory (this directory)
-    ├── play-store-apps/        # Parent for all app projects
+    ├── packages/               # Parent for all app projects
     │   ├── .agent/             # Legacy (deprecated — use root .agent)
-    │   ├── apps.bhopal.dev/    # Portal site & app directory
-    │   ├── tambola/            # Tambola Master game
-    │   ├── notification-history/ # Notification history utility
+    │   ├── apps.example.com/   # Portal site & app directory
+    │   ├── example-game/       # Example Game app
+    │   ├── utility-app/        # Example utility app
     │   └── <new-app>/          # Future apps go here
     ├── Test business ideas/    # Research & ideation scratch space
     ├── src/                    # Root landing page source
     └── index.html              # Root landing page
     ```
-*   **Per-App Structure:** Every app under `play-store-apps/` must follow:
+*   **Per-App Structure:** Every app under `packages/` must follow:
     ```
     <app-name>/
     ├── public/                 # Static assets (icons, images, manifest.json)
@@ -39,16 +39,16 @@ This skill defines the standards for initializing new projects within the Busine
 
 ## 2. New Project Initialization Checklist
 **Goal:** Never miss a setup step when starting a new app.
-*   **Step 1 — Scaffold:** Run `npx -y create-vite@latest ./ --template react` (or `vanilla` for non-React apps) inside the new directory under `play-store-apps/`.
+*   **Step 1 — Scaffold:** Run `npx -y create-vite@latest ./ --template react` (or `vanilla` for non-React apps) inside the new directory under `packages/`.
 *   **Step 2 — Dependencies:** Install project-specific dependencies. Common baseline: `npm install firebase` (if using Firebase).
 *   **Step 3 — PWA Setup:** Create `public/manifest.json` following Skill 05 standards. Create `public/sw.js` with App Shell caching. Add service worker registration to `main.js`.
 *   **Step 4 — Design System:** Set up `src/index.css` with design tokens from Skill 04. Import Google Font. Define dark mode variables.
 *   **Step 5 — Git:** Initialize with `git init`. Create `.gitignore`. Make initial commit: `git commit -m "feat: initial scaffold"`.
-*   **Step 6 — Registry:** Add the new app entry to `apps.bhopal.dev/apps.json` with `id`, `name`, `description`, `path`, `icon`, `status`, and `tags`.
+*   **Step 6 — Registry:** Add the new app entry to `apps.example.com/apps.json` with `id`, `name`, `description`, `path`, `icon`, `status`, and `tags`.
 *   **Step 7 — README:** Create `README.md` with project name, description, tech stack, setup instructions, and deployment URL.
 
 ## 3. `apps.json` Registry Protocol
-**Goal:** The portal at apps.bhopal.dev always has an accurate directory of all apps.
+**Goal:** The portal at apps.example.com always has an accurate directory of all apps.
 *   **Schema:**
     ```json
     {
@@ -62,7 +62,7 @@ This skill defines the standards for initializing new projects within the Busine
     }
     ```
 *   **Status Lifecycle:** `Development` → `Beta` → `Live` → `Archived`. Update status in `apps.json` at each transition.
-*   **Deployment:** The portal itself is hosted on GitHub Pages at `apps.bhopal.dev`. After updating `apps.json`, commit and push to trigger deployment.
+*   **Deployment:** The portal itself is hosted on GitHub Pages at `apps.example.com`. After updating `apps.json`, commit and push to trigger deployment.
 
 ## 4. Shared Configuration Patterns
 **Goal:** Reduce boilerplate across projects.
