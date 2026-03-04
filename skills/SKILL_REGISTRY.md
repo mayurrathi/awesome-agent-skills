@@ -9,6 +9,7 @@
 | 1.1.2 | Marketing And Growth | Linkedin Ecosystem | Profile Optimizer | [Link](./1_marketing_and_growth/1.1_linkedin_ecosystem/1.1.2_profile_optimizer/SKILL.md) |
 | 1.1.3 | Marketing And Growth | Linkedin Ecosystem | Content Creator | [Link](./1_marketing_and_growth/1.1_linkedin_ecosystem/1.1.3_content_creator/SKILL.md) |
 | 1.1.4 | Marketing And Growth | Linkedin Ecosystem | Automation Bot | [Link](./1_marketing_and_growth/1.1_linkedin_ecosystem/1.1.4_automation_bot/SKILL.md) |
+| 1.1.5 | Marketing And Growth | Linkedin Ecosystem | Linkedin Authority Architect | [Link](./1_marketing_and_growth/1.1_linkedin_ecosystem/1.1.5_linkedin_authority_architect/SKILL.md) |
 | 1.2.1 | Marketing And Growth | Search And Seo | Seo Site Architecture | [Link](./1_marketing_and_growth/1.2_search_and_seo/1.2.1_seo_site_architecture/SKILL.md) |
 | 1.2.2 | Marketing And Growth | Search And Seo | Omni Seo Dominance | [Link](./1_marketing_and_growth/1.2_search_and_seo/1.2.2_omni_seo_dominance/SKILL.md) |
 | 1.3.1 | Marketing And Growth | Copywriting And Cro | Conversion Copywriting | [Link](./1_marketing_and_growth/1.3_copywriting_and_cro/1.3.1_conversion_copywriting/SKILL.md) |
@@ -71,6 +72,7 @@ graph TD
     SUB_1_1 --> S_1_1_2[Profile Optimizer]
     SUB_1_1 --> S_1_1_3[Content Creator]
     SUB_1_1 --> S_1_1_4[Automation Bot]
+    SUB_1_1 --> S_1_1_5[Linkedin Authority Architect]
     TL1 --> SUB_1_2[Search And Seo]
     SUB_1_2 --> S_1_2_1[Seo Site Architecture]
     SUB_1_2 --> S_1_2_2[Omni Seo Dominance]
