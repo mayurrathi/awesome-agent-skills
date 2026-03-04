@@ -9,7 +9,6 @@
 | 1.1.2 | Marketing And Growth | Linkedin Ecosystem | Profile Optimizer | [Link](./1_marketing_and_growth/1.1_linkedin_ecosystem/1.1.2_profile_optimizer/SKILL.md) |
 | 1.1.3 | Marketing And Growth | Linkedin Ecosystem | Content Creator | [Link](./1_marketing_and_growth/1.1_linkedin_ecosystem/1.1.3_content_creator/SKILL.md) |
 | 1.1.4 | Marketing And Growth | Linkedin Ecosystem | Automation Bot | [Link](./1_marketing_and_growth/1.1_linkedin_ecosystem/1.1.4_automation_bot/SKILL.md) |
-| 1.1.5 | Marketing And Growth | Linkedin Ecosystem | Linkedin Authority Architect | [Link](./1_marketing_and_growth/1.1_linkedin_ecosystem/1.1.5_linkedin_authority_architect/SKILL.md) |
 | 1.2.1 | Marketing And Growth | Search And Seo | Seo Site Architecture | [Link](./1_marketing_and_growth/1.2_search_and_seo/1.2.1_seo_site_architecture/SKILL.md) |
 | 1.2.2 | Marketing And Growth | Search And Seo | Omni Seo Dominance | [Link](./1_marketing_and_growth/1.2_search_and_seo/1.2.2_omni_seo_dominance/SKILL.md) |
 | 1.3.1 | Marketing And Growth | Copywriting And Cro | Conversion Copywriting | [Link](./1_marketing_and_growth/1.3_copywriting_and_cro/1.3.1_conversion_copywriting/SKILL.md) |
@@ -39,6 +38,7 @@
 | 2.6.1 | Engineering And Devops | Desktop And Native | Electron Upgrade Advisor | [Link](./2_engineering_and_devops/2.6_desktop_and_native/2.6.1_electron_upgrade_advisor/SKILL.md) |
 | 3.1.1 | Ai And Agents | Agent Orchestration | Ai Dev Workflows | [Link](./3_ai_and_agents/3.1_agent_orchestration/3.1.1_ai_dev_workflows/SKILL.md) |
 | 3.1.2 | Ai And Agents | Agent Orchestration | Antigravity Superpowers | [Link](./3_ai_and_agents/3.1_agent_orchestration/3.1.2_antigravity_superpowers/SKILL.md) |
+| 3.1.3 | Ai And Agents | Agent Orchestration | Skill Orchestrator | [Link](./3_ai_and_agents/3.1_agent_orchestration/3.1.3_skill_orchestrator/SKILL.md) |
 | 3.1.99 | Ai And Agents | Agent Orchestration | Legacy Antigravity Skills | [Link](./3_ai_and_agents/3.1_agent_orchestration/3.1.99_legacy_antigravity_skills/SKILL.md) |
 | 3.2.1 | Ai And Agents | Agent Tooling | Mcp Server Builder | [Link](./3_ai_and_agents/3.2_agent_tooling/3.2.1_mcp_server_builder/SKILL.md) |
 | 3.2.2 | Ai And Agents | Agent Tooling | Connect Automation | [Link](./3_ai_and_agents/3.2_agent_tooling/3.2.2_connect_automation/SKILL.md) |
@@ -72,7 +72,6 @@ graph TD
     SUB_1_1 --> S_1_1_2[Profile Optimizer]
     SUB_1_1 --> S_1_1_3[Content Creator]
     SUB_1_1 --> S_1_1_4[Automation Bot]
-    SUB_1_1 --> S_1_1_5[Linkedin Authority Architect]
     TL1 --> SUB_1_2[Search And Seo]
     SUB_1_2 --> S_1_2_1[Seo Site Architecture]
     SUB_1_2 --> S_1_2_2[Omni Seo Dominance]
@@ -113,6 +112,7 @@ graph TD
     TL3 --> SUB_3_1[Agent Orchestration]
     SUB_3_1 --> S_3_1_1[Ai Dev Workflows]
     SUB_3_1 --> S_3_1_2[Antigravity Superpowers]
+    SUB_3_1 --> S_3_1_3[Skill Orchestrator]
     SUB_3_1 --> S_3_1_99[Legacy Antigravity Skills]
     TL3 --> SUB_3_2[Agent Tooling]
     SUB_3_2 --> S_3_2_1[Mcp Server Builder]
