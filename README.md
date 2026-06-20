@@ -68,7 +68,7 @@ We have over 45+ highly specialized skills available right now. Here are a few h
 <!-- SKILLS_START -->
 
 ### 🤖 Ai & Agents
-<details><summary>View 7 Skills <i>(Click to expand)</i></summary>
+<details><summary>View 8 Skills <i>(Click to expand)</i></summary>
 
 #### `ai-dev-workflows`
 *Ai Dev Workflows* - Prompt engineering for code generation, multi-agent coordination, skill authoring standards, workflow automation, and...
@@ -81,6 +81,13 @@ npx skills add mayurrathi/awesome-agent-skills --skill ai-dev-workflows
 *Antigravity Superpowers* - Enforces a "Plan-Act-Verify" loop. Agents must write a plan and tests before coding. Reducing bugs in complex feature...
 ```bash
 npx skills add mayurrathi/awesome-agent-skills --skill antigravity-superpowers
+```
+---
+
+#### `ax-extract-workflow`
+*Ax Extract Workflow* - Reconstruct how shipped work happened from local ax sessions, commits, skills, and subagent activity.
+```bash
+npx skills add mayurrathi/awesome-agent-skills --skill ax-extract-workflow
 ```
 ---
 
