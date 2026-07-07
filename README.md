@@ -141,7 +141,7 @@ npx skills add mayurrathi/awesome-agent-skills --skill remotion-video-editor
 </details>
 
 ### 🤖 Engineering & Devops
-<details><summary>View 17 Skills <i>(Click to expand)</i></summary>
+<details><summary>View 18 Skills <i>(Click to expand)</i></summary>
 
 #### `app-arbitrage`
 *App Arbitrage* - Strategic methodology for identifying, rebuilding, and monetizing legacy mobile applications using AI and hybrid reve...
@@ -203,6 +203,13 @@ npx skills add mayurrathi/awesome-agent-skills --skill india-first-localization
 *Project Scaffolding* - Monorepo structure, Vite project initialization, shared config patterns, apps.json registry, dependency management, a...
 ```bash
 npx skills add mayurrathi/awesome-agent-skills --skill project-scaffolding
+```
+---
+
+#### `routerbase-model-gateway`
+*RouterBase Model Gateway* - Integrate apps with [routerbase](https://routerbase.com/) as an OpenAI-compatible model gateway for routing, fallback, media generation, and privacy-safe API setup.
+```bash
+npx skills add mayurrathi/awesome-agent-skills --skill routerbase-model-gateway
 ```
 ---
 
