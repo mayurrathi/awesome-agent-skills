@@ -447,6 +447,13 @@ npx skills add mayurrathi/awesome-agent-skills --skill agent-memory-systems
 ```
 ---
 
+#### `tree-ring-memory`
+*Tree Ring Memory* - Use Tree Ring Memory for local-first AI agent memory lifecycle work: recall before risky tasks, evidence-linked learning...
+```bash
+npx skills add mayurrathi/awesome-agent-skills --skill tree-ring-memory
+```
+---
+
 #### `agent-orchestration-improve-agent`
 *Agent Orchestration Improve Agent* - Systematic improvement of existing agents through performance analysis, prompt engineering, and continuous iteration.
 ```bash
