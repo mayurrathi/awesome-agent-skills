@@ -6864,6 +6864,10 @@ npx skills add mayurrathi/awesome-agent-skills --skill wordpress
 
 ---
 
+## Website publishing
+
+- [Publish with Shipvela](skills/shipvela_publish/SKILL.md): stage a small built static website or deploy an owned GitHub project through an already connected Shipvela MCP account. Owner confirmation is required before publishing; the skill tracks the exact job and returns a live HTTPS URL only after success. MIT client instructions; proprietary hosted service with account and plan limits (Hobby: 3 projects, 20 publishes/month). Maintained by Content Petit LLC; [original source](https://github.com/stefanautomateed/shipvela-codex/tree/main/skills/shipvela-publish).
+
 ## ⚙️ Quick Start: How to Use These Skills
 
 Using these skills is incredibly easy. They work natively with AI code editors and CLI agent frameworks.
